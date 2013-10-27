@@ -1,0 +1,13 @@
+Matrice de comparaison
+======================
+|              || Toyota Aygo  || Toyota Yaris |
+| Toyota Aygo  ||            0 ||           -1 |
+| Toyota Yaris ||            1 ||            0 |
+
+
+Comparaison Voitures
+====================
+Toyota Aygo   =  Toyota Aygo    ==>        0
+Toyota Aygo   <  Toyota Yaris   ==>        /
+Toyota Yaris  >  Toyota Aygo    ==>        /
+Toyota Yaris  =  Toyota Yaris   ==>        0

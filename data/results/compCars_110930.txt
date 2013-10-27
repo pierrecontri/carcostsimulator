@@ -1,0 +1,117 @@
+Matrice de comparaison
+======================
+|                                || Skoda Fabia 1.4 TDI            || Toyota Aygo 1.1                || Dacia Logan 1.2                || Renaut Clio Campus 1.5         || Dacia Sandero 1.2              || Fiat Punto Evo 1.2 e           || Fiat Punto Evo 1.3 d           || Fiat Panda 1.2 e               || Fiat Panda 1.3 d               || Renault Clio III essence 75 ch |
+| Skoda Fabia 1.4 TDI            ||                              0 ||                              1 ||                        -261000 ||                              1 ||                         -85000 ||                              1 ||                              1 ||                              1 ||                              1 ||                              1 |
+| Toyota Aygo 1.1                ||                             -1 ||                              0 ||                         -54000 ||                             -1 ||                          -3000 ||                         180000 ||                         266000 ||                              1 ||                          45000 ||                        -141000 |
+| Dacia Logan 1.2                ||                         261000 ||                          54000 ||                              0 ||                         119000 ||                             -1 ||                          94000 ||                         146000 ||                              1 ||                          54000 ||                              1 |
+| Renaut Clio Campus 1.5         ||                             -1 ||                              1 ||                        -119000 ||                              0 ||                         -30000 ||                          80000 ||                         160000 ||                              1 ||                           8000 ||                        -219000 |
+| Dacia Sandero 1.2              ||                          85000 ||                           3000 ||                              1 ||                          30000 ||                              0 ||                          47000 ||                          78000 ||                              1 ||                          20000 ||                              1 |
+| Fiat Punto Evo 1.2 e           ||                             -1 ||                        -180000 ||                         -94000 ||                         -80000 ||                         -47000 ||                              0 ||                             -1 ||                              1 ||                              1 ||                        -152000 |
+| Fiat Punto Evo 1.3 d           ||                             -1 ||                        -266000 ||                        -146000 ||                        -160000 ||                         -78000 ||                              1 ||                              0 ||                              1 ||                              1 ||                        -194000 |
+| Fiat Panda 1.2 e               ||                             -1 ||                             -1 ||                             -1 ||                             -1 ||                             -1 ||                             -1 ||                             -1 ||                              0 ||                         116000 ||                         -70000 |
+| Fiat Panda 1.3 d               ||                             -1 ||                         -45000 ||                         -54000 ||                          -8000 ||                         -20000 ||                             -1 ||                             -1 ||                        -116000 ||                              0 ||                         -90000 |
+| Renault Clio III essence 75 ch ||                             -1 ||                         141000 ||                             -1 ||                         219000 ||                             -1 ||                         152000 ||                         194000 ||                          70000 ||                          90000 ||                              0 |
+
+
+Comparaison Voitures
+====================
+Skoda Fabia 1.4 TDI             =  Skoda Fabia 1.4 TDI              ==>        0
+Skoda Fabia 1.4 TDI             >  Toyota Aygo 1.1                  ==>        /
+Skoda Fabia 1.4 TDI             <  Dacia Logan 1.2                  ==>   261000
+Skoda Fabia 1.4 TDI             >  Renaut Clio Campus 1.5           ==>        /
+Skoda Fabia 1.4 TDI             <  Dacia Sandero 1.2                ==>    85000
+Skoda Fabia 1.4 TDI             >  Fiat Punto Evo 1.2 e             ==>        /
+Skoda Fabia 1.4 TDI             >  Fiat Punto Evo 1.3 d             ==>        /
+Skoda Fabia 1.4 TDI             >  Fiat Panda 1.2 e                 ==>        /
+Skoda Fabia 1.4 TDI             >  Fiat Panda 1.3 d                 ==>        /
+Skoda Fabia 1.4 TDI             >  Renault Clio III essence 75 ch   ==>        /
+Toyota Aygo 1.1                 <  Skoda Fabia 1.4 TDI              ==>        /
+Toyota Aygo 1.1                 =  Toyota Aygo 1.1                  ==>        0
+Toyota Aygo 1.1                 <  Dacia Logan 1.2                  ==>    54000
+Toyota Aygo 1.1                 <  Renaut Clio Campus 1.5           ==>        /
+Toyota Aygo 1.1                 <  Dacia Sandero 1.2                ==>     3000
+Toyota Aygo 1.1                 >  Fiat Punto Evo 1.2 e             ==>   180000
+Toyota Aygo 1.1                 >  Fiat Punto Evo 1.3 d             ==>   266000
+Toyota Aygo 1.1                 >  Fiat Panda 1.2 e                 ==>        /
+Toyota Aygo 1.1                 >  Fiat Panda 1.3 d                 ==>    45000
+Toyota Aygo 1.1                 <  Renault Clio III essence 75 ch   ==>   141000
+Dacia Logan 1.2                 >  Skoda Fabia 1.4 TDI              ==>   261000
+Dacia Logan 1.2                 >  Toyota Aygo 1.1                  ==>    54000
+Dacia Logan 1.2                 =  Dacia Logan 1.2                  ==>        0
+Dacia Logan 1.2                 >  Renaut Clio Campus 1.5           ==>   119000
+Dacia Logan 1.2                 <  Dacia Sandero 1.2                ==>        /
+Dacia Logan 1.2                 >  Fiat Punto Evo 1.2 e             ==>    94000
+Dacia Logan 1.2                 >  Fiat Punto Evo 1.3 d             ==>   146000
+Dacia Logan 1.2                 >  Fiat Panda 1.2 e                 ==>        /
+Dacia Logan 1.2                 >  Fiat Panda 1.3 d                 ==>    54000
+Dacia Logan 1.2                 >  Renault Clio III essence 75 ch   ==>        /
+Renaut Clio Campus 1.5          <  Skoda Fabia 1.4 TDI              ==>        /
+Renaut Clio Campus 1.5          >  Toyota Aygo 1.1                  ==>        /
+Renaut Clio Campus 1.5          <  Dacia Logan 1.2                  ==>   119000
+Renaut Clio Campus 1.5          =  Renaut Clio Campus 1.5           ==>        0
+Renaut Clio Campus 1.5          <  Dacia Sandero 1.2                ==>    30000
+Renaut Clio Campus 1.5          >  Fiat Punto Evo 1.2 e             ==>    80000
+Renaut Clio Campus 1.5          >  Fiat Punto Evo 1.3 d             ==>   160000
+Renaut Clio Campus 1.5          >  Fiat Panda 1.2 e                 ==>        /
+Renaut Clio Campus 1.5          >  Fiat Panda 1.3 d                 ==>     8000
+Renaut Clio Campus 1.5          <  Renault Clio III essence 75 ch   ==>   219000
+Dacia Sandero 1.2               >  Skoda Fabia 1.4 TDI              ==>    85000
+Dacia Sandero 1.2               >  Toyota Aygo 1.1                  ==>     3000
+Dacia Sandero 1.2               >  Dacia Logan 1.2                  ==>        /
+Dacia Sandero 1.2               >  Renaut Clio Campus 1.5           ==>    30000
+Dacia Sandero 1.2               =  Dacia Sandero 1.2                ==>        0
+Dacia Sandero 1.2               >  Fiat Punto Evo 1.2 e             ==>    47000
+Dacia Sandero 1.2               >  Fiat Punto Evo 1.3 d             ==>    78000
+Dacia Sandero 1.2               >  Fiat Panda 1.2 e                 ==>        /
+Dacia Sandero 1.2               >  Fiat Panda 1.3 d                 ==>    20000
+Dacia Sandero 1.2               >  Renault Clio III essence 75 ch   ==>        /
+Fiat Punto Evo 1.2 e            <  Skoda Fabia 1.4 TDI              ==>        /
+Fiat Punto Evo 1.2 e            <  Toyota Aygo 1.1                  ==>   180000
+Fiat Punto Evo 1.2 e            <  Dacia Logan 1.2                  ==>    94000
+Fiat Punto Evo 1.2 e            <  Renaut Clio Campus 1.5           ==>    80000
+Fiat Punto Evo 1.2 e            <  Dacia Sandero 1.2                ==>    47000
+Fiat Punto Evo 1.2 e            =  Fiat Punto Evo 1.2 e             ==>        0
+Fiat Punto Evo 1.2 e            <  Fiat Punto Evo 1.3 d             ==>        /
+Fiat Punto Evo 1.2 e            >  Fiat Panda 1.2 e                 ==>        /
+Fiat Punto Evo 1.2 e            >  Fiat Panda 1.3 d                 ==>        /
+Fiat Punto Evo 1.2 e            <  Renault Clio III essence 75 ch   ==>   152000
+Fiat Punto Evo 1.3 d            <  Skoda Fabia 1.4 TDI              ==>        /
+Fiat Punto Evo 1.3 d            <  Toyota Aygo 1.1                  ==>   266000
+Fiat Punto Evo 1.3 d            <  Dacia Logan 1.2                  ==>   146000
+Fiat Punto Evo 1.3 d            <  Renaut Clio Campus 1.5           ==>   160000
+Fiat Punto Evo 1.3 d            <  Dacia Sandero 1.2                ==>    78000
+Fiat Punto Evo 1.3 d            >  Fiat Punto Evo 1.2 e             ==>        /
+Fiat Punto Evo 1.3 d            =  Fiat Punto Evo 1.3 d             ==>        0
+Fiat Punto Evo 1.3 d            >  Fiat Panda 1.2 e                 ==>        /
+Fiat Punto Evo 1.3 d            >  Fiat Panda 1.3 d                 ==>        /
+Fiat Punto Evo 1.3 d            <  Renault Clio III essence 75 ch   ==>   194000
+Fiat Panda 1.2 e                <  Skoda Fabia 1.4 TDI              ==>        /
+Fiat Panda 1.2 e                <  Toyota Aygo 1.1                  ==>        /
+Fiat Panda 1.2 e                <  Dacia Logan 1.2                  ==>        /
+Fiat Panda 1.2 e                <  Renaut Clio Campus 1.5           ==>        /
+Fiat Panda 1.2 e                <  Dacia Sandero 1.2                ==>        /
+Fiat Panda 1.2 e                <  Fiat Punto Evo 1.2 e             ==>        /
+Fiat Panda 1.2 e                <  Fiat Punto Evo 1.3 d             ==>        /
+Fiat Panda 1.2 e                =  Fiat Panda 1.2 e                 ==>        0
+Fiat Panda 1.2 e                >  Fiat Panda 1.3 d                 ==>   116000
+Fiat Panda 1.2 e                <  Renault Clio III essence 75 ch   ==>    70000
+Fiat Panda 1.3 d                <  Skoda Fabia 1.4 TDI              ==>        /
+Fiat Panda 1.3 d                <  Toyota Aygo 1.1                  ==>    45000
+Fiat Panda 1.3 d                <  Dacia Logan 1.2                  ==>    54000
+Fiat Panda 1.3 d                <  Renaut Clio Campus 1.5           ==>     8000
+Fiat Panda 1.3 d                <  Dacia Sandero 1.2                ==>    20000
+Fiat Panda 1.3 d                <  Fiat Punto Evo 1.2 e             ==>        /
+Fiat Panda 1.3 d                <  Fiat Punto Evo 1.3 d             ==>        /
+Fiat Panda 1.3 d                <  Fiat Panda 1.2 e                 ==>   116000
+Fiat Panda 1.3 d                =  Fiat Panda 1.3 d                 ==>        0
+Fiat Panda 1.3 d                <  Renault Clio III essence 75 ch   ==>    90000
+Renault Clio III essence 75 ch  <  Skoda Fabia 1.4 TDI              ==>        /
+Renault Clio III essence 75 ch  >  Toyota Aygo 1.1                  ==>   141000
+Renault Clio III essence 75 ch  <  Dacia Logan 1.2                  ==>        /
+Renault Clio III essence 75 ch  >  Renaut Clio Campus 1.5           ==>   219000
+Renault Clio III essence 75 ch  <  Dacia Sandero 1.2                ==>        /
+Renault Clio III essence 75 ch  >  Fiat Punto Evo 1.2 e             ==>   152000
+Renault Clio III essence 75 ch  >  Fiat Punto Evo 1.3 d             ==>   194000
+Renault Clio III essence 75 ch  >  Fiat Panda 1.2 e                 ==>    70000
+Renault Clio III essence 75 ch  >  Fiat Panda 1.3 d                 ==>    90000
+Renault Clio III essence 75 ch  =  Renault Clio III essence 75 ch   ==>        0

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<database>
+  <Fuels>
+    <Fuel id="01" name="GPL" visibility="visible">
+      <name>GPL</name>
+      <price>0.798</price>
+    </Fuel>
+    <Fuel id="02" name="NA" visibility="visible">
+      <name>NA</name>
+      <price>0.0</price>
+    </Fuel>
+    <Fuel id="03" name="diesel" visibility="visible">
+      <name>diesel</name>
+      <price>1.319</price>
+    </Fuel>
+    <Fuel id="04" name="essence" visibility="visible">
+      <name>essence</name>
+      <price>1.529</price>
+    </Fuel>
+  </Fuels>
+  <Cars>
+    <Car id="01" name="Skoda Fabia 1.4 TDI" visibility="visible">
+      <Wearparts>
+        <Wearpart id="00" name="Couroie" visibility="visible">
+          <name>Couroie</name>
+          <periodicity>90000.0</periodicity>
+          <price>750.0</price>
+        </Wearpart>
+        <Wearpart id="01" name="Entretien" visibility="visible">
+          <name>Entretien</name>
+          <periodicity>15000.0</periodicity>
+          <price>120.0</price>
+        </Wearpart>
+      </Wearparts>
+      <consumption>4.7</consumption>
+      <fuel>diesel</fuel>
+      <insuranceprice>534.0</insuranceprice>
+      <name>Skoda Fabia 1.4 TDI</name>
+      <price>14800.0</price>
+      <tanksize>43.0</tanksize>
+    </Car>
+    <Car id="02" name="Toyota Aygo 1.1" visibility="visible">
+      <Wearparts>
+        <Wearpart id="00" name="Couroie" visibility="visible">
+          <name>Couroie</name>
+          <periodicity>90000.0</periodicity>
+          <price>550.0</price>
+        </Wearpart>
+        <Wearpart id="01" name="Entretien" visibility="visible">
+          <name>Entretien</name>
+          <periodicity>15000.0</periodicity>
+          <price>110.0</price>
+        </Wearpart>
+      </Wearparts>
+      <consumption>4.6</consumption>
+      <fuel>essence</fuel>
+      <insuranceprice>380.0</insuranceprice>
+      <name>Toyota Aygo 1.1</name>
+      <price>10600.0</price>
+      <tanksize>37.0</tanksize>
+    </Car>
+    <Car id="03" name="Fiat Punto Evo 1.2 e" visibility="visible">
+      <consumption>5.2</consumption>
+      <fuel>essence</fuel>
+      <insuranceprice>0.0</insuranceprice>
+      <name>Fiat Punto Evo 1.2 e</name>
+      <price>12390.0</price>
+      <tanksize>0.0</tanksize>
+    </Car>
+    <Car id="04" name="Punto GPL" visibility="visible">
+      <Wearparts>
+        <Wearpart id="00" name="Essuis Glasses" visibility="visible">
+          <name>Essuis Glasses</name>
+          <periodicity>10000.0</periodicity>
+          <price>30.0</price>
+        </Wearpart>
+      </Wearparts>
+      <consumption>8.6</consumption>
+      <fuel>GPL</fuel>
+      <insuranceprice>275.0</insuranceprice>
+      <name>Punto GPL</name>
+      <price>12500.0</price>
+      <tanksize>70.0</tanksize>
+    </Car>
+    <Car id="05" name="Renault Clio III essence 75 ch" visibility="visible">
+      <Wearparts>
+        <Wearpart id="00" name="Couroie" visibility="visible">
+          <name>Couroie</name>
+          <periodicity>90000.0</periodicity>
+          <price>500.0</price>
+        </Wearpart>
+        <Wearpart id="01" name="Entretien" visibility="visible">
+          <name>Entretien</name>
+          <periodicity>30000.0</periodicity>
+          <price>200.0</price>
+        </Wearpart>
+      </Wearparts>
+      <consumption>5.8</consumption>
+      <fuel>essence</fuel>
+      <insuranceprice>500.0</insuranceprice>
+      <name>Renault Clio III essence 75 ch</name>
+      <price>8000.0</price>
+      <tanksize>55.0</tanksize>
+    </Car>
+  </Cars>
+</database>

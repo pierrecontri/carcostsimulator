@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<database>
+  <Fuels>
+    <Fuel id="69598512" name="GPL" visibility="visible">
+      <name>GPL</name>
+      <price>0.798</price>
+    </Fuel>
+    <Fuel id="69598608" name="essence" visibility="visible">
+      <name>essence</name>
+      <price>1.529</price>
+    </Fuel>
+    <Fuel id="69598672" name="diesel" visibility="visible">
+      <name>diesel</name>
+      <price>1.319</price>
+    </Fuel>
+  </Fuels>
+  <Cars>
+    <Car id="69598544" name="Skoda Fabia 1.4 TDI" visibility="visible">
+      <Wearparts>
+        <Wearpart id="69598704" name="Couroie" visibility="visible">
+          <name>Couroie</name>
+          <periodicity>90000.0</periodicity>
+          <price>750.0</price>
+        </Wearpart>
+        <Wearpart id="69598736" name="Entretien" visibility="visible">
+          <name>Entretien</name>
+          <periodicity>15000.0</periodicity>
+          <price>120.0</price>
+        </Wearpart>
+        <Wearpart id="69598576" name="Plaquettes Avant" visibility="visible">
+          <name>Plaquettes Avant</name>
+          <periodicity>100000.0</periodicity>
+          <price>135.0</price>
+        </Wearpart>
+        <Wearpart id="69598800" name="Disques Avant" visibility="visible">
+          <name>Disques Avant</name>
+          <periodicity>200000.0</periodicity>
+          <price>150.0</price>
+        </Wearpart>
+        <Wearpart id="69598640" name="Amortisseurs Avant" visibility="visible">
+          <name>Amortisseurs Avant</name>
+          <periodicity>200000.0</periodicity>
+          <price>465.0</price>
+        </Wearpart>
+        <Wearpart id="69598832" name="Amortisseurs Arrière" visibility="visible">
+          <name>Amortisseurs Arrière</name>
+          <periodicity>200000.0</periodicity>
+          <price>275.0</price>
+        </Wearpart>
+      </Wearparts>
+      <consumption>4.7</consumption>
+      <fuel>diesel</fuel>
+      <insuranceprice>534.0</insuranceprice>
+      <name>Skoda Fabia 1.4 TDI</name>
+      <price>14800.0</price>
+      <tanksize>43.0</tanksize>
+    </Car>
+    <Car id="69599024" name="Toyota Aygo 1.1" visibility="visible">
+      <Wearparts>
+        <Wearpart id="69598960" name="Couroie" visibility="visible">
+          <name>Couroie</name>
+          <periodicity>90000.0</periodicity>
+          <price>550.0</price>
+        </Wearpart>
+        <Wearpart id="69599088" name="Entretien" visibility="visible">
+          <name>Entretien</name>
+          <periodicity>15000.0</periodicity>
+          <price>110.0</price>
+        </Wearpart>
+      </Wearparts>
+      <consumption>4.6</consumption>
+      <fuel>essence</fuel>
+      <insuranceprice>380.0</insuranceprice>
+      <name>Toyota Aygo 1.1</name>
+      <price>10600.0</price>
+      <tanksize>37.0</tanksize>
+    </Car>
+    <Car id="69599120" name="Fiat Punto Evo 1.2 e" visibility="visible">
+      <consumption>5.2</consumption>
+      <fuel>essence</fuel>
+      <insuranceprice>0.0</insuranceprice>
+      <name>Fiat Punto Evo 1.2 e</name>
+      <price>12390.0</price>
+      <tanksize>0.0</tanksize>
+    </Car>
+    <Car id="69599056" name="Fiat Punto Evo 1.3 d" visibility="visible">
+      <Wearparts>
+        <Wearpart id="69599184" name="Couroie" visibility="visible">
+          <name>Couroie</name>
+          <periodicity>90000.0</periodicity>
+          <price>500.0</price>
+        </Wearpart>
+        <Wearpart id="69599216" name="Entretien" visibility="visible">
+          <name>Entretien</name>
+          <periodicity>30000.0</periodicity>
+          <price>200.0</price>
+        </Wearpart>
+      </Wearparts>
+      <consumption>4.1</consumption>
+      <fuel>diesel</fuel>
+      <insuranceprice>500.0</insuranceprice>
+      <name>Fiat Punto Evo 1.3 d</name>
+      <price>14690.0</price>
+      <tanksize>50.0</tanksize>
+    </Car>
+  </Cars>
+</database>

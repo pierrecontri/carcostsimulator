@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<database>
+  <Fuels>
+    <Fuel id="01" name="GPL" visibility="visible">
+      <name>GPL</name>
+      <price>0.798</price>
+    </Fuel>
+    <Fuel id="02" name="essence" visibility="visible">
+      <name>essence</name>
+      <price>1.529</price>
+    </Fuel>
+    <Fuel id="03" name="diesel" visibility="visible">
+      <name>diesel</name>
+      <price>1.319</price>
+    </Fuel>
+    <Fuel id="04" name="Gaz" visibility="visible">
+      <name>Gaz</name>
+      <price>0.5</price>
+    </Fuel>
+  </Fuels>
+  <Cars>
+    <Car id="01" name="Porsche" visibility="visible">
+      <consumption>17.5</consumption>
+      <fuel>essence</fuel>
+      <insuranceprice>5000.0</insuranceprice>
+      <name>Porsche</name>
+      <price>150000.0</price>
+      <tanksize>86.0</tanksize>
+    </Car>
+  </Cars>
+</database>

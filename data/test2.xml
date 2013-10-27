@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<database>
+  <Cars type="dict">
+    <Car id="01" name="Toyota Aygo" visibility="visible">
+      <Wearparts>
+        <Wearpart id="01" name="vidange" visibility="visible">
+          <name>vidange</name>
+          <periodicity>15000.0</periodicity>
+          <price>210.0</price>
+        </Wearpart>
+      </Wearparts>
+      <consumption>4.6</consumption>
+      <driver>builder</driver>
+      <fuel>ess</fuel>
+      <insuranceprice>0.0</insuranceprice>
+      <name>Toyota Aygo</name>
+      <price>7000.0</price>
+      <tanksize>35.0</tanksize>
+    </Car>
+    <Car id="02" name="Toyota Yaris" visibility="visible">
+      <Wearparts>
+        <Wearpart id="01" name="vidange" visibility="visible">
+          <name>vidange</name>
+          <periodicity>20000.0</periodicity>
+          <price>320.0</price>
+        </Wearpart>
+        <Wearpart id="02" name="pneus" visibility="visible">
+          <name>pneus</name>
+          <periodicity>30000.0</periodicity>
+          <price>420.0</price>
+        </Wearpart>
+      </Wearparts>
+      <consumption>4.4</consumption>
+      <driver>builder</driver>
+      <fuel>dies</fuel>
+      <insuranceprice>0.0</insuranceprice>
+      <name>Toyota Yaris</name>
+      <price>17000.0</price>
+      <tanksize>38.0</tanksize>
+    </Car>
+  </Cars>
+  <Fuels type="dict">
+    <Fuel id="01" name="GPL" visibility="visible">
+      <name>GPL</name>
+      <price>0.9</price>
+    </Fuel>
+    <Fuel id="02" name="dies" visibility="visible">
+      <name>dies</name>
+      <price>1.4</price>
+    </Fuel>
+    <Fuel id="03" name="ess" visibility="visible">
+      <name>ess</name>
+      <price>1.5</price>
+    </Fuel>
+    <Fuel id="04" name="gaz" visibility="visible">
+      <name>gaz</name>
+      <price>0.4</price>
+    </Fuel>
+    <Fuel id="05" name="elect" visibility="visible">
+      <name>elect</name>
+      <price>0.2</price>
+    </Fuel>
+  </Fuels>
+  <Drivers type="dict">
+    <Driver id="01" name="builder" visibility="visible">
+      <drivertype>Builder</drivertype>
+      <kmperyear>52000.0</kmperyear>
+      <maxkilometers>301000.0</maxkilometers>
+      <name>builder</name>
+    </Driver>
+  </Drivers>
+  <Drivertypes type="dict">
+    <Drivertype id="01" name="Builder" visibility="visible">
+      <drivingcoefficient>1.0</drivingcoefficient>
+      <name>Builder</name>
+    </Drivertype>
+  </Drivertypes>
+</database>

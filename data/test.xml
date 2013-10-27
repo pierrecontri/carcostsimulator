@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<database>
+  <Fuels type="dict">
+    <Fuel id="01" name="newObj" visibility="visible">
+      <name>newObj</name>
+      <price>0.0</price>
+    </Fuel>
+  </Fuels>
+  <Drivertypes type="dict">
+    <Drivertype id="01" name="newObj" visibility="visible">
+      <drivingcoefficient>1.0</drivingcoefficient>
+      <name>newObj</name>
+    </Drivertype>
+  </Drivertypes>
+  <Drivers type="list">
+    <Driver id="01" name="newObj" visibility="visible">
+      <drivertype></drivertype>
+      <kmperyear>0.0</kmperyear>
+      <maxkilometers>0.0</maxkilometers>
+      <name>newObj</name>
+    </Driver>
+  </Drivers>
+  <Cars type="list">
+    <Car id="01" name="newObj" visibility="visible">
+      <consumption>0.0</consumption>
+      <fuel>NA</fuel>
+      <insuranceprice>0.0</insuranceprice>
+      <name>newObj</name>
+      <price>0.0</price>
+      <tanksize>0.0</tanksize>
+    </Car>
+  </Cars>
+</database>
