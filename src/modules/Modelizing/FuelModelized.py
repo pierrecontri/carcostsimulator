@@ -34,6 +34,7 @@ class Fuel(ListManaged, XmlExp):
     @property
     def price(self):
         return self._price
+
     @price.setter
     def price(self, value):
         self._price = float(value)

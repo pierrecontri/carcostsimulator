@@ -33,23 +33,11 @@ class XmlExp(object):
                 xmltxt += data.rjust(len(data) + (indent + 2), ' ') + "\n"
 
             elif propertyType.__name__ == "property": # if it's a content list of objects
-                tmpData = ""
                 idxSubObj = 1
                 for subobj in propertyObj:
                     if hasattr(subobj, 'XmlExport'):
-                        #tmpData += subobj.XmlExport(indent + 4, idxSubObj) + "\n"
                         xmltxt += subobj.XmlExport(indent + 2, idxSubObj) + "\n"
                         idxSubObj += 1
-
-                #if tmpData != "":
-                    # parent ancrer
-                    #data = "<" + propertyName + ">"
-                    #xmltxt += data.rjust(len(data) + (indent + 2), ' ') + "\n"
-                    # child ancrer
-                    #xmltxt += tmpData
-                    # end of parent ancrer
-                    #data = "</" + propertyName + ">"
-                    #xmltxt += data.rjust(len(data) + (indent + 2), ' ') + "\n"
 
         data = "</" + self.__class__.__name__ + ">"
         xmltxt += data.rjust(len(data) + indent, ' ')
