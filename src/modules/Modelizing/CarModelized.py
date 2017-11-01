@@ -170,7 +170,7 @@ class Car(ListManaged, XmlExp):
     def fuel(self, value):
         try:
             if Fuel.arrayObj.has_key(str(value)):
-			    self._fuel = Fuel.arrayObj[str(value)]
+                self._fuel = Fuel.arrayObj[str(value)]
             else:
                 self._fuel = value
         except:
