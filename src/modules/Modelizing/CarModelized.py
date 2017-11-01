@@ -438,7 +438,7 @@ def sauvComparaisonText(strFileName = ""):
 
 def main():
 	fuelD = Fuel("diesel", 1.39)
-	print fuelD.getInfos()
+	print(fuelD.getInfos())
 	Fuel.arrayObj[str(fuelD)] = fuelD
 	skoda = Car("Skoda Fabia 1.4 TDI")
 	skoda.price = 14800.0
@@ -448,8 +448,8 @@ def main():
 	skoda.insuranceprice = 534.0
 	skoda.Wearparts.append(Wearpart("Entretien", 15000, 120.0))
 	skoda.Wearparts.append(Wearpart("Couroie", 90000, 750.0))
-	print skoda.getInfos()
-	print skoda.XmlExport()
+	print(skoda.getInfos())
+	print(skoda.XmlExport())
 	Car.appendObj(skoda)
 	#Car.showCurves()
 
