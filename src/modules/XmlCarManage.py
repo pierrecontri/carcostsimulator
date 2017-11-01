@@ -32,12 +32,12 @@ class XmlCarManage(object):
 
     # 3 handler functions
 	def start_element_show(self, name, attrs):
-		# print 'Start element:', name, attrs
+		# print('Start element:', name, attrs)
 		outp = "<" + name
 		for attr in attrs:
 			outp += " " + attr + "='" + attrs[attr] + "'"
 		outp += ">"
-		print outp.rjust(len(outp) + self.indent, ' ')
+		print(outp.rjust(len(outp) + self.indent, ' '))
 		self.indent += 2
 
     # 3 handler functions
@@ -68,7 +68,7 @@ class XmlCarManage(object):
 					if hasattr(tmpObject.__class__, "appendObj"):
 						tmpObject.__class__.appendObj(tmpObject)
 				except:
-					print "Error in appening object"
+					print("Error in appening object")
 		elif self.tmpParentObject is not None and hasattr(self.tmpParentObject, name + 's'):
 			if saveObj:
 				eval('self.tmpParentObject.' + name + 's.append(tmpObject)')
@@ -77,10 +77,10 @@ class XmlCarManage(object):
 		return
 
 	def end_element_show(self, name):
-		#print 'End element:', name
+		#print('End element:', name)
 		outp = "</" + name + ">"
 		self.indent -= 2
-		print outp.rjust(len(outp) + self.indent, ' ')
+		print(outp.rjust(len(outp) + self.indent, ' '))
 
 	def end_element(self, name):
 		if self.tmpObject == None:
@@ -94,9 +94,9 @@ class XmlCarManage(object):
 		return
 
 	def char_data_show(self, data):
-		#print 'Character data:', repr(data)
+		#print('Character data:', repr(data))
 		if len(data.strip()) > 0:
-			print data.rjust(len(data) + self.indent, ' ')
+			print(data.rjust(len(data) + self.indent, ' '))
 
 	def char_data(self, data):
 		if len(data.strip()) > 0:
@@ -137,6 +137,6 @@ class XmlCarManage(object):
 if __name__ == '__main__':
 	testXml = XmlCarManage("../../data/CarDatabase.xml", True)
 	if len(Car.arrayObj) > 0:
-		print Car.arrayObj
+		print(Car.arrayObj)
 	if len(Fuel.arrayObj) > 0:
-		print Fuel.arrayObj
+		print(Fuel.arrayObj)
