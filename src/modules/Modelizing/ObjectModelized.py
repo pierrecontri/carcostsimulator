@@ -28,7 +28,7 @@ class XmlExp(object):
             propertyObj = self.__getattribute__(propertyName)
 
             # if the property is not a list of contents
-            if propertyType.__name__ == "property" and type(propertyObj) is not ListType:
+            if propertyType.__name__ == "property" and type(propertyObj) is not list:
                 data = "<" + propertyName + ">" + str(propertyObj) + "</" + propertyName + ">"
                 xmltxt += data.rjust(len(data) + (indent + 2), ' ') + "\n"
 

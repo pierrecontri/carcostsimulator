@@ -169,7 +169,7 @@ class Car(ListManaged, XmlExp):
     @fuel.setter
     def fuel(self, value):
         try:
-            if Fuel.arrayObj.has_key(str(value)):
+            if str(value) in Fuel.arrayObj:
                 self._fuel = Fuel.arrayObj[str(value)]
             else:
                 self._fuel = value
@@ -192,7 +192,7 @@ class Car(ListManaged, XmlExp):
     @driver.setter
     def driver(self, value):
         try:
-            if hasattr(Driver, 'arrayObj') and Driver.arrayObj.has_key(str(value)):
+            if hasattr(Driver, 'arrayObj') and str(value) in Driver.arrayObj:
                 self._driver = Driver.arrayObj[str(value)]
             else:
                 self._driver = value
