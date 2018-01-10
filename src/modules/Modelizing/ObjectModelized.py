@@ -1,6 +1,6 @@
 ﻿# Module ObjectModelized.py
 
-import pylab as pl
+#import pylab as pl
 import inspect
 from types import *
 from copy import copy, deepcopy

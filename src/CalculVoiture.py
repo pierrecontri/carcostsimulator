@@ -1,9 +1,10 @@
 ﻿#! /usr/bin/env python
 
-import pygtk
-pygtk.require('2.0')
-import gtk
-import gtk.glade
+from gi.repository import Gtk
+#import pygtk
+#pygtk.require('2.0')
+#import gtk
+#import gtk.glade
 import gobject
 from datetime import date
 from copy import *
