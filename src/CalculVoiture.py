@@ -23,8 +23,8 @@ absFilePath = pth.abspath(__file__)
 absFileDirectoryPath = pth.dirname(absFilePath)
 #Join into this directory sub module directory
 modulesPyc = pth.join(absFileDirectoryPath, 'modules')
-#Calcul HMI path
-hmiPath = pth.join(absFileDirectoryPath, 'HMI', 'CalculVoiture.glade')
+#Calcul GUI path
+gui_path = pth.join(absFileDirectoryPath, 'gui', 'CalculVoiture.glade')
 
 #Default data directory
 dataDir = pth.normpath(pth.join(absFileDirectoryPath, '..', 'data'))
@@ -73,11 +73,11 @@ from XmlCarManage import *
 class winInterface(object):
 
 	def __init__(self, datafilename = ""):
-		global hmiPath
+		global gui_path
 		self._tmpObjCopy = None
 		self._tmpObjEdit = None
 		self._datafilename = datafilename
-		self.widgets = gtk.glade.XML(hmiPath)
+		self.widgets = gtk.glade.XML(gui_path)
 		self.autoConnect()
 		self.createTreeViews()
 		self.dataLoader()

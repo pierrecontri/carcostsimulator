@@ -1,4 +1,2 @@
 #! /bin/sh
-cd bin
-python CalculVoiture.pyc
-cd ..
+python3 bin/CalculVoiture.pyc
